@@ -1,0 +1,86 @@
+
+
+/* ====================================================
+ 1.0: Settings 
+====================================================== */
+
+body {
+    color: #212529;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #ffffff;
+}
+
+.line-border {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, transparent), color-stop(30%, #999999));
+    background-image: linear-gradient(to right, transparent 30%, #999999 30%);
+}
+
+
+
+/* Background Colors */
+
+.bg-primary-color {
+    background-color: #fab700;
+}
+
+.bg-primary-colorh:hover {
+    background-color: #e4c200;
+}
+
+.bg-primary-colorhb:hover {
+    background: #e4c200;
+    color: #000000;
+}
+
+.bg-primary-colorh:hover a {
+    background-color: #e4c200;
+}
+
+/* Border On Hover */
+
+.bg-primary-borderh:hover {
+    background-color: unset;
+    border: 1px solid #e4c200;
+}
+
+
+
+.bg-active {
+    background-color: #ffc763 !important;
+}
+
+.text-white-c {
+    color: rgba(204, 204, 204, 0.7);
+}
+
+
+nav.navbar.padding {
+    background-color: #000000;
+}
+
+/* ====================================================
+1.2: Resume
+====================================================== */
+
+.resume .resume-details .resume-box {
+    border-right: 3px solid #ffc763;
+}
+
+.resume .nav-tabs .nav-link.active:hover {
+    color: #000;
+}
+
+.resume .resume-details .resume-box:before {
+    background-color: #ffc763;
+}
+
+.resume .resume-details .circle:before {
+    background-color: #ffc763;
+}
+
+.resume .resume-details .circle:after {
+    background-color: #ffc763;
+}
